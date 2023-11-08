@@ -5,8 +5,8 @@
   
 #### The file 'Feature_engineering' uses existing variables to create new relevant features:
 * Extracted numerical and date features from sting features by using replace() and datetime() functions.
-* One-hot encoding was used to create dummy variables for categorical features. A reference dummy variable is removed from every such feature.
 * Features with missing values are either removed, or the missing values are replaced with zero, mean, maximum, or value from some other feature.
+* One-hot encoding was used to create dummy variables for categorical features. A reference dummy variable is removed from every such feature.
 * As creating dummy variables for every categorical feature resulted in lots of features, features were then grouped based on their weight of evidence using coarse classification
 * Similarly, continuous variables were grouped using their W.O.E by coarse classification.
 
