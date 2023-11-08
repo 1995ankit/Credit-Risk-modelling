@@ -11,7 +11,8 @@
 * Similarly, continuous variables were grouped using their W.O.E by coarse classification.
 
 #### The file 'Feature_engineering' uses existing variables to create new meaningful features.
-* 
+* SKlearn logistic regression is used for the modeling.
+* ROC curve is used to decide the threshold below which the model classifies a customer as default. The threshold is decided based on the need of the bank, i.e, whether to reject more applications or give more loans.
 
 
 
