@@ -1,5 +1,5 @@
 # Credit-Risk-modeling
-### This code creates features on credit risk data using the Weight of Evidence.
+### This code creates a credit risk model based on features constructed using the Weight of Evidence method on available data.
 
 #### The project contains two Jupyter Notebook files - Feature_engineering.ipynb and PD_modelling.ipynb
   
@@ -12,8 +12,8 @@
 
 #### The file 'PD_modeling' uses existing variables to create new meaningful features.
 * SKlearn logistic regression is used for the modeling.
-* ROC curve is used to decide the threshold below which the model classifies a customer as default. The threshold is decided based on the need of the bank, i.e, whether to reject more applications or give more loans.
+* The ROC curve decides the threshold below which the model classifies a customer as default. The threshold is decided based on the need of the bank, i.e, whether to reject more applications or give more loans.
 
 
 
-###### The project is done as a capstone project of course - Credit Risk Modelling.
+###### The project is a capstone course project - Credit Risk Modelling.
